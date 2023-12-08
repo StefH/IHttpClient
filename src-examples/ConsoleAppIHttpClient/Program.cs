@@ -1,19 +1,13 @@
-## Info
-This project uses source generation to generate an `IHttpClient` interface and `HttpClientProxy` from the `HttpClient` to make it injectable and unit-testable.
+using System.Net.Http;
+using System.Net.Http.Json;
 
-All the methods and properties from the `HttpClient` are replicated to `IHttpClient`.
-
-## NuGet
-[![NuGet Badge](https://buildstats.info/nuget/IHttpClient)](https://www.nuget.org/packages/IHttpClient)
-
-## Usage
-``` c#
-HttpClient httpClient = new HttpClient();
-IHttpClient httpClientProxy = new HttpClientProxy(httpClient); 
+var httpClient = new HttpClient();
+var httpClientProxy = new HttpClientProxy(httpClient);
 
 var result = await httpClientProxy.GetAsync("https://www.google.nl");
 var todo = await httpClientProxy.GetFromJsonAsync<Todo>("https://jsonplaceholder.typicode.com/todos/1");
 var postResult = await httpClientProxy.PostAsJsonAsync("https://jsonplaceholder.typicode.com/todos", new Todo { Id = 123 });
 var patchResult = await httpClientProxy.PatchAsJsonAsync("https://jsonplaceholder.typicode.com/todos/1", new Todo { Id = 400 });
 var putResult = await httpClientProxy.PutAsJsonAsync("https://jsonplaceholder.typicode.com/todos/1", new Todo { Id = 444 });
-```
+
+int x = 0;
