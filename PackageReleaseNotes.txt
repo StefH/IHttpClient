@@ -1,3 +1,4 @@
-#  ()
+# 0.0.2 (09 December 2023)
+- #1 Add .NET 4.6.1 [enhancement]
 
 The full release notes can be found here: https://github.com/StefH/IHttpClient/blob/main/ReleaseNotes.md
