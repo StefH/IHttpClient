@@ -1,3 +1,6 @@
+# 0.0.5 (23 September 2024)
+- [#4](https://github.com/StefH/IHttpClient/pull/4) - Upgrade ProxyInterfaceGenerator to 0.2.0 [enhancement] contributed by [StefH](https://github.com/StefH)
+
 # 0.0.4 (28 April 2024)
 - [#3](https://github.com/StefH/IHttpClient/pull/3) - Use ProxyInterfaceGenerator version 0.1.0 [enhancement] contributed by [StefH](https://github.com/StefH)
 
