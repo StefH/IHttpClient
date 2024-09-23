@@ -4,7 +4,7 @@ This project uses source generation to generate an `IHttpClient` interface and `
 All the methods and properties from the `HttpClient` are replicated to `IHttpClient`.
 
 ## NuGet
-[![NuGet Badge](https://buildstats.info/nuget/IHttpClient)](https://www.nuget.org/packages/IHttpClient)
+[![NuGet Badge](https://img.shields.io/nuget/v/IHttpClient)](https://www.nuget.org/packages/IHttpClient)
 
 ## Usage
 ``` c#
