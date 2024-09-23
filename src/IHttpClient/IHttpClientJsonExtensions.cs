@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 namespace System.Net.Http.Json;
 
 /// <inheritdoc cref="HttpClientJsonExtensions"/>
+// ReSharper disable once InconsistentNaming
 public static class IHttpClientJsonExtensions
 {
     #region PostAsJsonAsync
