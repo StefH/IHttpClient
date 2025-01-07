@@ -1,4 +1,4 @@
-# 0.0.5 (23 September 2024)
-- #4 Upgrade ProxyInterfaceGenerator to 0.2.0 [enhancement]
+# 0.0.6 (07 January 2025)
+- #5 Update ProxyInterfaceGenerator to version 0.5.0 [enhancement]
 
 The full release notes can be found here: https://github.com/StefH/IHttpClient/blob/main/ReleaseNotes.md
